@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    border: 2px solid rgb(78, 15, 161);
+
+}
+
+.logo-kanda{
+    width: 8%;
+}
+nav{
+    background-color: rgb(208, 159, 253);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.titulo{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 15%;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+/* contenido del box */
+
+.titulo-container{
+    margin-bottom: 15px;
+}
+
+.imagen-container{
+
+}
+
+.parrafo-container{
+    margin-top: 15px;
+}
+
+.precio-container{
+    margin-top: 7px;
+}
+
+.boton-container{
+    margin-top: 7px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    /* margin-top: 60px;
+    margin-bottom: 50px; */
+}
+
+main{
+    background-image: url(./images/fondo-kanda-lilapastel.png);
+}
+
+main h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.boton-comprar{
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.imagen-muffin{
+    border-radius: 5%;
+}
+
+.logos{
+    margin-left: 10px;
+    
+}
+.logo-ig{
+    width: 3%;
+}
+
+.logo-fb{
+    width: 3%;
+}
+
+footer{
+    background-color: rgb(208, 159, 253);
+    border: 2px solid rgb(78, 15, 161);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
